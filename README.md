@@ -40,3 +40,8 @@ Both of them run in the background. The main difference is that background pages
 
 <h2>Context Menu</h2>
 <p>A menu that represents the functionality of the extension. What makes a popup menu is that it appears when a certain event occurs like a right click inside the browser after certain action happens.</p>
+
+<h2> Badges</h2>
+<p>
+Badges are going to diplay an information on the extensions icon. This is good if the extension is listening to a service or executes an action based on some event.
+</p>

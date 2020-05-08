@@ -1,3 +1,5 @@
+//Event page that is going to be executed on right click event and 
+//has an access to selected text
 var contextMenuItem = {
     "id":"getAge",
     "title":"Calculate Age",
@@ -23,4 +25,11 @@ chrome.contextMenus.onClicked.addListener(function(clicked){
                 });
             }
         }
+});
+//This function creates a listener 
+//That is going to listen to the value change in the storage
+chrome.storage.onChanged.addListener(function (changes,storageName) {
+     //To set a badge
+     //changes.age.newValue.toString() shows the new value
+     chrome.browserAction.setBadgeText({"text":changes.age.newValue.toString()});
 });
