@@ -1,0 +1,9 @@
+$(function(){
+    chrome.storage.sync.get('age',function(birthYear){
+        $('#calculated').text(birthYear.age);
+    });
+    $('#reset').click(function(){
+        chrome.storage.sync.set({'age':0});
+        $('#calculated').text(0);
+    })
+});

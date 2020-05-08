@@ -29,3 +29,5 @@
 <h2>How to load extensions</h2>
 <p>To load the extensions go to chrome://extensions page and enable the developer mode.</p>
 <p>Then, click on load unpacked extensions and select the folder you were working in.</p>
+<h2>Chrome Storage</h2>
+<p>Chrome storage is a memory in which we can store values to variables or objects.</p>

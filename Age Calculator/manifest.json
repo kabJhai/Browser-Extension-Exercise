@@ -11,5 +11,7 @@
     "browser_action":{
         "default_icon":"icon16.png",
         "default_popup":"popup.html"
-    }
+    },
+    "options_page": "option_page.html",
+    "permissions":["storage"]
 }
