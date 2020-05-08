@@ -14,6 +14,18 @@ $(function(){
             let age = year-parseInt($('#year').val());
             chrome.storage.sync.get('age',function(birthYear){
                 chrome.storage.sync.set({'age': age});
+                if(age > 100){
+                    var notification = {
+                        type: "basic",
+                        iconUrl: "icon48.png",
+                        title:"Too Old",
+                        message:"Uh are you really this old?"
+                    };
+                    chrome.notifications.create('oldNotif',notification,function() {
+                        chrome.runtime.lastError
+                    });
+                }
+    
             });
         }    
     });

@@ -31,3 +31,12 @@
 <p>Then, click on load unpacked extensions and select the folder you were working in.</p>
 <h2>Chrome Storage</h2>
 <p>Chrome storage is a memory in which we can store values to variables or objects.</p>
+
+<h2>Background and Event Pages</h2>
+<p>
+Both of them run in the background. The main difference is that background pages run all the time and event pages run when they are trigered.
+</p>
+<p>In order to differentiate between background and event pages the persistent flags under the background property should be false for <em>event pages</em> and true for <em></em> for background pages</p>
+
+<h2>Context Menu</h2>
+<p>A menu that represents the functionality of the extension. What makes a popup menu is that it appears when a certain event occurs like a right click inside the browser after certain action happens.</p>
