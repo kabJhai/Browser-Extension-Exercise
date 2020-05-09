@@ -45,3 +45,14 @@ Both of them run in the background. The main difference is that background pages
 <p>
 Badges are going to diplay an information on the extensions icon. This is good if the extension is listening to a service or executes an action based on some event.
 </p>
+
+<h2>Page Aciton Extension</h2>
+<p>
+Is an extension that work on specific pages or websites selected or specified by the developer.
+</p>
+
+<h1>Content Scripts</h1>
+<p>
+Content scripts are scripts that run on the context of the loaded web page. 
+The content scripts can act on Style, Hyperlinks and DOM. And can access scripts associated with a website.
+</p>
