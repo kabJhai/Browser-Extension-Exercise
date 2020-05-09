@@ -1,0 +1,22 @@
+{
+    "manifest_version":2,
+    "name":"Page Action Extension",
+    "version":"1.0",
+    "icons":{
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+    },
+    "page_action":{
+        "default_icon":"icon16.png",
+        "default_popup":"popup.html",
+        "default_title":"Page Action Extension"
+    },
+    "background":{
+        "scripts":["eventPage.js"],
+        "persistent":false
+    },
+    "permissions":[
+        "tabs"
+    ]
+}
